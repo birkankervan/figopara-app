@@ -1,34 +1,27 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Figopara-App
 
-## Getting Started
+Figopara için yapılmış fatura tutarına göre iskonto talep uygulaması. Bu uygulama ile  3 fatura seçip seçilen fatura tutarına göre iskonto uygulanması yapılmaktadır. Faturalar sayfasından fatura detayına ulaşabilmektedir.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+### Uygulama ile yapılabilecekler
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Üye girişi
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+Üye çıkışı
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+Fatura detay incelemesi
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+Fatura Detay görünümü
 
-## Learn More
+Fatura seçimi
 
-To learn more about Next.js, take a look at the following resources:
+Seçilen faturalara göre toplam ile iskonto talebi.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### STACK
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+[![](https://skillicons.dev/icons?i=git,html,js,ts,react,nextjs,emotion,materialui,redux,sass)](https://todo-app-six-pearl.vercel.app/)
 
-## Deploy on Vercel
+### TOUCH ME
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+[![](https://skillicons.dev/icons?i=git)](https://github.com/birkankervan)[![](https://skillicons.dev/icons?i=linkedin) ](https://www.linkedin.com/in/emre-birkan-kervan-8858b1143/)[![](https://skillicons.dev/icons?i=stackoverflow)](https://stackoverflow.com/users/11132670/birkan) [![](https://icons.iconarchive.com/icons/rafiqul-hassan/blogger/128/Email-3-icon.png)](mailto:e.birkankervan@gmail.com)
