@@ -74,11 +74,10 @@ const InvoiceDetail = ({
                     >
                       <Box sx={{ gridArea: " 1 / 1 / 2 / 2" }}>
                         <Typography
-                          variant="h6"
+                          variant="subtitle1"
                           noWrap
                           color="secondary.main"
                           component="span"
-                          fontWeight={600}
                         >
                           {invObj[entry[0]]}:{" "}
                         </Typography>
@@ -90,7 +89,7 @@ const InvoiceDetail = ({
                         }}
                       >
                         <Typography
-                          variant="h6"
+                          variant="subtitle1"
                           noWrap
                           color="primary.main"
                           component="span"
@@ -100,6 +99,8 @@ const InvoiceDetail = ({
                                 new Date(entry[1] as string),
                                 "dd/MM/yyyy HH:mm"
                               )
+                            : typeof entry[1] === "number"
+                            ? entry[1].toLocaleString("tr-TR")
                             : (entry[1] as any)}
                         </Typography>
                       </Box>
